@@ -48,7 +48,7 @@ video {
     background-color: #95C11E;
     border-radius: 50%;
     position: fixed;
-    z-index: 99;
+    z-index: 98;
 }
 #cursor-blur {
     height: 300px;
@@ -85,10 +85,10 @@ video {
     content: "EAT. DRINK. PLAY.";
     position: absolute;
     color: black;
-    top: -6px;
-    left: -6px;
+    top: -4px;
+    left: -4px;
     z-index: -1;
-    -webkit-text-stroke: 2px rgb(187, 255, 0);
+    -webkit-text-stroke: 1px rgb(187, 255, 0);
 }
 #page1 h2 {
     z-index: 10;
@@ -109,26 +109,103 @@ video {
     width: 100%;
 }
 
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
 #scroller {
     /* background-color: red; */
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
+    position: relative;
+    z-index: 98;
 }
-#scroller-in-1 {
+#scroller::-webkit-scrollbar {
+    display: none;
+}
+#scroller-in {
     display: inline-block;
     white-space: nowrap;
-}
-#scroller-in-2 {
-    display: inline-block;
-    white-space: nowrap;
+    animation-name: scroll;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index: 10;
 }
 #scroller h4 {
+    padding: 0 30px;
     display: inline-block;
-    font-size: 140px;
+    font-size: 120px;
     font-weight: 900;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-right: 10px;
-    color: transparent;
-    -webkit-text-stroke: 2px rgb(187, 255, 0);
+    color: black;
+    -webkit-text-stroke: 2px #fff;
+    transition-duration: 0.5s;
+}
+#scroller h4:hover {
+    color: rgb(187, 255, 0);
+    -webkit-text-stroke: rgb(187, 255, 0);
+}
+
+#about-us {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px;
+    margin: 70px 0;
+    position: relative;
+    z-index: 10;
+}
+#about-us img {
+    height: 200px;
+    width: 180px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+#about-us-in {
+    margin: 0 100px;
+    text-align: center;
+}
+#about-us-in h3 {
+    font-size: 40px;
+    font-weight: 1000;
+    padding: 20px 0;
+}
+#about-us-in p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#cards-container {
+    background-color: red;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.card {
+    height: 86%;
+    width: 24%;
+    background-color: blue;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+}
+#card1 {
+    background-image: url();
+}
+#card2 {
+    background-image: url();
+}
+#card3 {
+    background-image: url();
 }
