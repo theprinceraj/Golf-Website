@@ -29,7 +29,7 @@ gsap.to("#main", {
         scroller: "body",
         // markers: true,
         start: "top 0%",
-        end: "top -100%",
+        end: "top -80%",
         scrub: 2,
     }
 });
