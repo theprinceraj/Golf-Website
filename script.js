@@ -75,7 +75,7 @@ gsap.from(".card", {
         scroller: "body",
         // markers: true,
         start: "top 70%",
-        end: "top 65%",
+        end: "top 50%",
         scrub: 1,
     }
 });
@@ -91,7 +91,7 @@ gsap.from("#colon1", {
         end: 'top 45%',
         scrub: 2,
     }
-})
+});
 gsap.from("#colon2", {
     y:70,
     x:70,
@@ -103,4 +103,4 @@ gsap.from("#colon2", {
         end: 'top 45%',
         scrub: 2,
     }
-})
+});
