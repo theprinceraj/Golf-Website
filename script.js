@@ -1,10 +1,10 @@
 let cursor = document.querySelector("#cursor");
 let cursorBlur = document.querySelector("#cursor-blur");
 document.addEventListener("mousemove", dets => {
-    cursor.style.left = dets.x - 8 +"px";
-    cursor.style.top = dets.y - 8 +"px";
-    cursorBlur.style.left = dets.x - 150 +"px";
-    cursorBlur.style.top = dets.y - 150 +"px";
+    cursor.style.left = dets.x - 8 + "px";
+    cursor.style.top = dets.y - 8 + "px";
+    cursorBlur.style.left = dets.x - 150 + "px";
+    cursorBlur.style.top = dets.y - 150 + "px";
 });
 
 
