@@ -116,6 +116,21 @@ video {
     position: relative;
 }
 
+
+#scroller {
+    /* background-color: red; */
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    z-index: 98;
+}
+
+#scroller-in {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 40s linear infinite;
+}
 @keyframes scroll {
     0% {
         transform: translateX(0);
@@ -126,30 +141,8 @@ video {
     }
 }
 
-#scroller {
-    /* background-color: red; */
-    white-space: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
-    position: relative;
-    z-index: 98;
-}
-
-#scroller::-webkit-scrollbar {
-    display: none;
-}
-
-#scroller-in {
-    display: inline-block;
-    white-space: nowrap;
-    animation-name: scroll;
-    animation-duration: 40s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    z-index: 10;
-}
-
 #scroller h4 {
+    white-space: nowrap;
     padding: 0 30px;
     display: inline-block;
     font-size: 120px;
