@@ -25,7 +25,6 @@ h4All.forEach(h4 => {
     });
 });
 
-
 gsap.to("#nav", {
     backgroundColor: "#000",
     height: "108px",
@@ -88,6 +87,17 @@ gsap.from("#colon2", {
         // markers: true,
         start: 'top 60%',
         end: 'top 45%',
+        scrub: 2,
+    }
+});
+
+gsap.from("#page4 h4", {
+    y:40,
+    scrollTrigger: {
+        trigger: "#page4",
+        scroller: "body",
+        start: "top 90%",
+        end: "top 70%",
         scrub: 2,
     }
 });
