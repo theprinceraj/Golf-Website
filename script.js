@@ -1,8 +1,8 @@
-let cursor = document.querySelector("#cursor");
+let crsr = document.querySelector("#cursor");
 let cursorBlur = document.querySelector("#cursor-blur");
 document.addEventListener("mousemove", dets => {
-    cursor.style.left = dets.x - 8 + "px";
-    cursor.style.top = dets.y - 8 + "px";
+    crsr.style.left = dets.x - 8 + "px";
+    crsr.style.top = dets.y - 8 + "px";
     cursorBlur.style.left = dets.x - 150 + "px";
     cursorBlur.style.top = dets.y - 150 + "px";
 });
@@ -10,16 +10,18 @@ document.addEventListener("mousemove", dets => {
 let h4All = document.querySelectorAll("#nav h4");
 h4All.forEach(h4 => {
     h4.addEventListener("mouseenter", () => {
-        cursor.style.scale = 4;
-        cursor.style.border = '1px solid white';
-        cursor.style.backgroundColor = 'transparent';
-        h4.style.color = '#000';
+        crsr.style.scale = 4;
+        crsr.style.border = '1px solid white';
+        crsr.style.backgroundColor = 'transparent';
+        h4.style.color = '#95C11E';
+        h4.style.cursor = 'pointer';
     });
     h4.addEventListener("mouseout", () => {
-        cursor.style.scale = 1;
-        cursor.style.border = '0px solid white';
-        cursor.style.backgroundColor = '#95C11E';
+        crsr.style.scale = 1;
+        crsr.style.border = '0px solid white';
+        crsr.style.backgroundColor = '#95C11E';
         h4.style.color = '#fff';
+        h4.style.cursor = 'default';
     });
 });
 
@@ -68,15 +70,15 @@ gsap.from("#about-us img, #about-us-in", {
 gsap.from(".card", {
     scale: 0.8,
     opacity: 0,
-    duration: 1,
+    duration: 2,
     stagger: 0.4,
     scrollTrigger: {
         trigger: ".card",
         scroller: "body",
-        // markers: true,
-        start: "top 70%",
-        end: "top 50%",
-        scrub: 1,
+        markers: true,
+        start: "top 80%",
+        end: "top 70%",
+        scrub: 4,
     }
 });
 
