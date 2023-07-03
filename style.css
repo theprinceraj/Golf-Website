@@ -7,6 +7,9 @@
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
+*:hover {
+    cursor: default;
+}
 
 html,
 body {
@@ -109,9 +112,7 @@ video {
 }
 
 #page2 {
-    position: relative;
     margin-top: 40px;
-    z-index: 99;
     height: 100%;
     width: 100%;
 }
@@ -119,6 +120,8 @@ video {
 
 #scroller {
     /* background-color: red; */
+    position: relative;
+    z-index: 99;
     white-space: nowrap;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -140,8 +143,6 @@ video {
 }
 
 #scroller h4 {
-    position: relative;
-    z-index: 95;
     white-space: nowrap;
     padding: 0 30px;
     display: flex;
@@ -157,7 +158,6 @@ video {
 #scroller h4:hover {
     color: rgb(187, 255, 0);
     -webkit-text-stroke: rgb(187, 255, 0);
-    cursor: default;
 }
 
 #about-us {
@@ -168,10 +168,12 @@ video {
     padding: 0 50px;
     margin: 70px 0;
     position: relative;
-    z-index: 100;
+    z-index: 98;
 }
 
 #about-us img {
+    position: relative;
+    z-index: 99;
     height: 200px;
     width: 180px;
     border-radius: 50px;
@@ -204,7 +206,7 @@ video {
     justify-content: center;
     gap: 70px;
     position: relative;
-    z-index: 10;
+    z-index: 99;
 }
 .card {
     height: 86%;
