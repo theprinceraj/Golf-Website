@@ -320,7 +320,7 @@ video {
 #page4 h4 {
     color: black;
     -webkit-text-stroke: 2px white;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     position: relative;
     z-index: 95;
@@ -344,5 +344,5 @@ video {
     width: 25%;
     height: 150px;
     position: relative;
-    z-index: 96;
+    z-index: 99;
 }
