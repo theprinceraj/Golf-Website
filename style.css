@@ -391,5 +391,5 @@ footer img {
     margin: 0 5px;
     position: relative;
     font-size: 35px;
-    filter: invert(100%);
+    color: white;
 }
