@@ -8,7 +8,6 @@ Welcome to a golf website repository! This repository contains the HTML and CSS 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Description
 
@@ -40,6 +39,3 @@ Additionally, you can add more pages, sections, or features to the website by ex
 
 Contributions to this repository are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request. Your contributions will help enhance the website and make it even better.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code in this repository.
