@@ -25,3 +25,21 @@ https://github.com/Bhaalu-69/Golf-Website/assets/116755566/d2ab93b8-b865-484b-81
 To run the website locally and make modifications, follow these steps:
 
 1. Clone the repository to your local machine using the following command:
+   ```github.com/Bhaalu-69/Golf-Website.git```
+2. Navigate to the cloned repository:
+```cd sidcup-family-golf```
+3. Run `index.html` with the live server extension.
+
+## Usage
+
+Feel free to customize the HTML and CSS files according to your needs. You can modify the content, colors, styles, and layout to match your branding or design preferences. The CSS file utilizes the Montserrat font from Google Fonts, but you can replace it with any other font if desired.
+
+Additionally, you can add more pages, sections, or features to the website by extending the existing HTML structure or creating new HTML files and linking them together.
+
+## Contributing
+
+Contributions to this repository are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request. Your contributions will help enhance the website and make it even better.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code in this repository.
