@@ -1,4 +1,4 @@
-# Sidcup Family Golf
+# Golf Website
 
 Welcome to a golf website repository! This repository contains the HTML and CSS code for the golf website that I "copied" from one of the official websites listed on awwwards.com website but with much simpler code and slightly lower functionality.
 
