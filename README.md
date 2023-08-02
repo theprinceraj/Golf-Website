@@ -17,6 +17,7 @@ The repository contains the HTML and CSS code that allows you to create a simila
 
 ## Preview
 https://theprinceraj.github.io/Golf-Website/
+
 https://github.com/Bhaalu-69/Golf-Website/assets/116755566/d2ab93b8-b865-484b-8118-6f223ff34eb4
 
 ## Installation
