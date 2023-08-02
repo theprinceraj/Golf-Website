@@ -16,7 +16,7 @@ Note that the website has not been responsive yet.
 The repository contains the HTML and CSS code that allows you to create a similar website like https://sidcupfamilygolf.com . The HTML file (`index.html`) provides the structure and content of the web pages, while the CSS file (`style.css`) defines the visual styling and layout.
 
 ## Preview
-https://theprinceraj.github.io/Golf-Website/
+https://theprinceraj.github.io/Golf-Website/ (open on desktop for best experience; not responsive for devices besides desktops & laptops)
 
 https://github.com/Bhaalu-69/Golf-Website/assets/116755566/d2ab93b8-b865-484b-8118-6f223ff34eb4
 
