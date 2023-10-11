@@ -11,6 +11,9 @@
     cursor: default;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 html,
 body {
     width: 100%;
@@ -392,4 +395,7 @@ footer img {
     position: relative;
     font-size: 35px;
     color: white;
+}
+.nav-links{
+    text-decoration: none;
 }
